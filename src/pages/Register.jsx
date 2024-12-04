@@ -73,10 +73,10 @@ export default function Register() {
                 <input type="text" placeholder='email' ref={emailRef}/>
                 <input type="password" placeholder='password' ref={passwordRef}/>
                 <input style={{display:"none"}} type="file" id='file' ref={fileRef} />
-                <label htmlFor="file">
+                {/* <label htmlFor="file">
                     <img src={Add} alt="" />
                     <span>Add an avatar</span>
-                </label>
+                </label> */}
                 <button>Sign Up</button>
                 <p>You do have an account? <Link to="/login">Login</Link></p>
                 {error && <span>Something went wrong</span>}
